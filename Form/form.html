@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="calc.php" method="GET">
+        <label for="a">A:</label>
+        <input type="text" id="a" name="a">
+        <br>    
+        <label for="b">B:</label>
+        <input type="text" id="b" name="b">
+        <br>
+        <label for="add">Add</label>
+        <input type="radio" name="opp" id="add" value="add" checked>
+        <br>
+        <label for="sub">Sub</label>
+        <input type="radio" name="opp" id="sub" value="sub"> 
+        <br>
+        <label for="mul">Mul</label>
+        <input type="radio" name="opp" id="mul" value="mul">
+        <br>
+        <label for="add">Div</label>
+        <input type="radio" name="opp" id="div" value="div">
+        <br>
+        <label for="gdpr">GDPR</label>
+        <input type="checkbox" name="gdpr">
+        <br>
+        <label for="adult">Advanced</label>
+        <input type="radio" name="skill" id="adult" value="advanced">
+        <br>
+        <label for="child">Basic</label>
+        <input type="radio" name="skill" id="child" value="basic">
+        <br>
+
+        <input type="reset" name="reset" id="reset">
+        <input type="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>
